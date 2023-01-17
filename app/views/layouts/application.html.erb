@@ -20,6 +20,7 @@
     <%if alert.present?%>
       <%=render "shared/flash", message: alert, css_class: "danger"%>
     <%end%>
+
     <%= yield %>
     </div>
   </body>
