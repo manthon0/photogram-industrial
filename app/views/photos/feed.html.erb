@@ -22,8 +22,9 @@
   </div>
   </div>
 
-<h2>Liked Photos</h2>
 
-<%@user.liked_photos.each do |photo|%>
+<h2>Feed</h2>
+
+<%@user.feed.each do |photo|%>
   <%=render "photos/photo", photo: photo%>
 <%end%>
